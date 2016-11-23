@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>  
   
     <!-- The Basics -->  
-    <groupId>...</groupId>  
-    <artifactId>...</artifactId>  
-    <version>...</version>  
-    <packaging>...</packaging>  
+    <groupId>oata.HelloWorld</groupId>  
+    <artifactId>helloworld</artifactId>  
+    <version>1.0-BETA</version>  
+    <packaging>jar</packaging>  
       
     <scm>  
     </scm>  
@@ -27,7 +27,7 @@
   
     <!-- Build Settings -->  
     <build>  
-	
+	  <plugins>
 		<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
@@ -49,7 +49,7 @@
                 </execution>
             </executions>
         </plugin>
-		
+	  </plugins>	
     </build>  
     <reporting> 
         <plugin>
