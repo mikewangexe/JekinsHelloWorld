@@ -1,6 +1,4 @@
 <project>  
-    <parent>  
-    </parent>  
       
     <modelVersion>4.0.0</modelVersion>  
   
@@ -52,6 +50,7 @@
 	  </plugins>	
     </build>  
     <reporting> 
+	  <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
@@ -60,6 +59,7 @@
                 <configLocation>checkstyle.xml</configLocation>
             </configuration>
         </plugin>	
+	  </plugins>
     </reporting>  
   
     <!-- More Project Information -->  
