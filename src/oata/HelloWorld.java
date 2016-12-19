@@ -2,7 +2,7 @@ package oata;
 
 public class HelloWorld {
     
-    public static void printArray(int[] array) {
+    public static void PprintArray(int[] array) {
         System.out.print("{");
         for (int i=0;i<array.length;i++){
             System.out.print(array[i]);
@@ -66,11 +66,11 @@ public class HelloWorld {
 		int[] array = { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2, -3 };  
   
         System.out.println("Before sort:");  
-        printArray(array);  
+        PprintArray(array);  
   
         quickSort(array);  
   
         System.out.println("After sort:");  
-        printArray(array);  
+        PprintArray(array);  
     }
 }
